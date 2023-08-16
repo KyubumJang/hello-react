@@ -1,17 +1,22 @@
 {
-  "name": "hello-react",
+  "name": "modern-react-develop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^8.3.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.40",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "chance": "^1.1.11",
+    "luxon": "^3.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,11 +28,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "rules": {
-      "react/jsx-filename-extension": 0,
-      "no-unused-vars": 1
-    }
+    ]
   },
   "browserslist": {
     "production": [
@@ -42,7 +43,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.29.0",
-    "eslint-plugin-react": "^7.24.0"
+    "@types/chance": "^1.1.3",
+    "@types/luxon": "^3.3.1"
   }
 }
